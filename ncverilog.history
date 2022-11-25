@@ -1,0 +1,12 @@
+s1(09Jan2021:22:13:15):  ncverilog testbed.v 
+s2(09Jan2021:22:17:21):  ncverilog testbed.v CLE.v ../sram_for_design/sram_256x8.v ../sram_for_design/sram_512x8.v ../sram_for_design/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s3(09Jan2021:22:18:20):  ncverilog testbed.v CLE.v  ../sram_for_design/sram_256x8.v ../sram_for_design/sram_512x8.v ../sram_for_design/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s4(09Jan2021:22:20:18):  ncverilog testbed.v CLE.v ../sram_for_design/sram_256x8/sram_256x8.v ../sram_for_design/sram_512x8/sram_512x8.v ../sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s5(09Jan2021:22:21:09):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s6(09Jan2021:22:22:00):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s7(11Jan2021:00:05:51):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s8(11Jan2021:00:17:30):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb0 +access+rw 
+s9(11Jan2021:00:17:42):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb1 +access+rw 
+s10(11Jan2021:00:18:04):  ncverilog testbed.v CLE.v sram_for_design/sram_256x8/sram_256x8.v sram_for_design/sram_512x8/sram_512x8.v sram_for_design/sram_4096x8/sram_4096x8.v +notimingchecks +define+tb5 +access+rw 
+s11(15Jan2021:02:14:22):  ncverilog testbed.v 
+s12(15Jan2021:02:17:59):  ncverilog testbed.v CLE_syn.v tsmc13_neg.v ../sram_for_design/sram_256x8/sram_256x8.v ../sram_for_design/sram_512x8/sram_512x8.v +ncmaxdelays +define+SDF+tb0 +access+rw 

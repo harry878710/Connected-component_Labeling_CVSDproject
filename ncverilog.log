@@ -1,0 +1,15 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Jan 15, 2021 at 02:17:59 CST
+ncverilog
+	testbed.v
+	CLE_syn.v
+	tsmc13_neg.v
+	../sram_for_design/sram_256x8/sram_256x8.v
+	../sram_for_design/sram_512x8/sram_512x8.v
+	+ncmaxdelays
+	+define+SDF+tb0
+	+access+rw
+ncverilog: *E,FILEMIS: Cannot find the provided file tsmc13_neg.v.
+ncverilog: *E,FILEMIS: Cannot find the provided file ../sram_for_design/sram_256x8/sram_256x8.v.
+ncverilog: *E,FILEMIS: Cannot find the provided file ../sram_for_design/sram_512x8/sram_512x8.v.
+TOOL:	ncverilog	15.20-s039: Exiting on Jan 15, 2021 at 02:17:59 CST  (total: 00:00:00)

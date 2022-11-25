@@ -1,0 +1,391 @@
+ncsim 15.20-s039
+Linux 2.6.32-696.28.1.el6.x86_64 #1 SMP Wed May 9 23:09:02 UTC 2018 x86_64
+CPU cores: 32
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+USER=b6505027
+LOGNAME=b6505027
+HOME=/home/raid7_2/userb06/b6505027
+PATH=/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/cadence/STRATUS/cur/tools/bin:/usr/cad/cadence/JASPER/cur/bin:/usr/cad/cadence/EDI/cur/tools/celtic/bin:/usr/cad/cadence/EDI/cur/tools/plato/bin:/usr/cad/cadence/EDI/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/fe/bin:/usr/cad/cadence/EDI/cur/tools/cdsdoc/bin:/usr/cad/cadence/EDI/cur/tools/bin:/usr/cad/cadence/EDI/cur//tools/tlfUtil/bin:/usr/cad/cadence/RC/cur/tools/bin:/usr/cad/cadence/SPECTRE/cur/tools/dfII/bin:/usr/cad/cadence/SPECTRE/cur/tools/bin:/usr/cad/cadence/MMSIM/cur/tools/dfII/bin:/usr/cad/cadence/MMSIM/cur/tools/bin:/usr/cad/cadence/NEOCIRCUIT/cur/tools/NeoCircuit/bin:bin.linux:/usr/cad/cadence/SPB/cur/tools/specctra/bin:/usr/cad/cadence/SPB/cur/tools/pcb/bin:/usr/cad/cadence/SPB/cur/tools/dfII/bin:/usr/cad/cadence/SPB/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dfII/bin:/usr/cad/cadence/IC/cur/tools/dracula/bin:/usr/cad/cadence/IC/cur/tools/bin:/usr/cad/cadence/EXT/cur/tools/bin:/usr/cad/cadence/ETS/cur/tools/bin:/usr/cad/cadence/CONFRML/cur/./bin:/usr/cad/cadence/CONFRML/cur/tools/bin:/usr/cad/cadence/CCD/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/assura/bin:/usr/cad/cadence/ASSURA/cur/tools/dsm/bin:/usr/cad/cadence/ASSURA/cur/tools/bin:/usr/cad/cadence/ASSURA/cur/tools/dfII/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/home/raid7_4/raid1_1/linux/novas/verdi/cur/bin
+MAIL=/var/spool/mail/b6505027
+SHELL=/bin/tcsh
+SSH_CLIENT=140.112.246.241 56731 22
+SSH_CONNECTION=140.112.246.241 56731 140.112.20.64 22
+SSH_TTY=/dev/pts/8
+TERM=xterm
+DISPLAY=localhost:14.0
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SELINUX_USE_CURRENT_RANGE=
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+SHLVL=1
+PWD=/home/raid7_2/userb06/b6505027/1091_final
+GROUP=user
+HOST=cad21
+REMOTEHOST=b241.m5.ntu.edu.tw
+HOSTNAME=cad21
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+CVS_RSH=ssh
+G_BROKEN_FILENAMES=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+LANG=zh_TW.UTF-8
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+ASSURAHOME=/usr/cad/cadence/ASSURA/cur
+LD_LIBRARY_PATH=/home/raid7_4/raid1_1/linux/novas/verdi/cur/share/PLI/IUS/LINUX/
+LM_LICENSE_FILE=26585@lsntu:5280@lscic:5280@lscic:5280@lsnctu:5280@lsncku:5280@lsnchu:
+VERPLEX_HOME=/usr/cad/cadence/CONFRML/cur
+OAHOME=/usr/cad/cadence/oa_v22.04.073
+OA_HOME=/usr/cad/cadence/EDI/cur/oa
+CDS_Netlisting_Mode=Analog
+NEOCKTHOME=/usr/cad/cadence/NEOCIRCUIT/cur/tools/NeoCircuit
+ENCOUNTER=/usr/cad/cadence/EDI/cur/tools/fe
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man:/usr/cad/synopsys/synthesis/cur/doc/syn/man
+_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=testbed.v
+73 profile - 100
+          CPU/Mem usage: 0.070 sys,  0.040 user,  61.76M sys,  0.00M vm
+74 VC callback profile - scalar:0 vector:0
+75 Fri Jan 15 02:14:24 2021
+76 pliAppInit
+77 FSDB_GATE is disabled.
+78 Enable Parallel Dumping.
+79 pliAppMiscSet: New Sim Round
+80 pliEntryInit
+81 LIBSSCORE=found /home/raid7_4/raid1_1/linux/novas/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+82 argv[0]: CLE.fsdb
+83 FSDB Dumper for IUS, Release Verdi_N-2017.12, Linux, 11/12/2017
+84 (C) 1996 - 2017 by Synopsys, Inc.
+85 sps_call_fsdbDumpfile at 0 : /home/raid7_2/userb06/b6505027/1091_final/testbed.v(123)
+86 argv[0]: CLE.fsdb
+87 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+88 *Verdi* : Create FSDB file 'CLE.fsdb'
+89 sps_call_fsdbDumpvars at 0 : /home/raid7_2/userb06/b6505027/1091_final/testbed.v(124)
+90 *Verdi* : Begin traversing the scopes, layer (0).
+91 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.clk(48)
+92 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.reset(48)
+93 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.record(116)
+94 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.x(25)
+95 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.y(25)
+96 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.n(25)
+97 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.i(25)
+98 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.addr(25)
+99 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.hit(25)
+100 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.hit_ref(25)
+101 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.err(25)
+102 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.pass(25)
+103 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.label(48)
+104 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rf(116)
+105 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.over(48)
+106 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.fid(48)
+107 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rom_q(36)
+108 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_q(36)
+109 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rom_a(36)
+110 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_a(36)
+111 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_d(36)
+112 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_wen(36)
+113 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.finish(36)
+114 Cell instance `test.u_rom'.
+115 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.NOT_A(48)
+116 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CEN(48)
+117 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_A(48)
+118 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_PER(48)
+119 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_MINH(48)
+120 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_MINL(48)
+121 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LATCHED_CEN(48)
+122 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LATCHED_A(48)
+123 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CENi(48)
+124 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Ai(48)
+125 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Qi(48)
+126 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_CLK(48)
+127 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Q(36)
+128 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CLK(36)
+129 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CEN(36)
+130 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.A(36)
+131 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._Q(36)
+132 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._A(36)
+133 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._CLK(36)
+134 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._CEN(36)
+135 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.re_flag(36)
+136 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rd_buffer(48)
+137 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.cnt(48)
+138 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.index_cnt(48)
+139 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.index_buffer(116)
+140 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.add_index_cnt(48)
+141 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rw(48)
+142 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.high_reverse(48)
+143 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.low_reverse(48)
+144 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rever_rst(48)
+145 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rd_sram(48)
+146 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.w_rd_sram(48)
+147 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.times(48)
+148 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.cs(48)
+149 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.ns(48)
+150 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a_high(48)
+151 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a_low(48)
+152 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr_high(48)
+153 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr_low(48)
+154 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr_high(48)
+155 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr_low(48)
+156 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.re_cs(48)
+157 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.re_ns(48)
+158 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.i(25)
+159 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.clk(36)
+160 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.reset(36)
+161 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_q(36)
+162 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a(36)
+163 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_q(36)
+164 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_a(36)
+165 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_d(36)
+166 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_wen(36)
+167 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.finish(36)
+168 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr(36)
+169 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr(36)
+170 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.current_index(36)
+171 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.en_rd(36)
+172 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.hit_without_ref(36)
+173 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.mem(116)
+174 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.NOT_A(48)
+175 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.NOT_D(48)
+176 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CEN(48)
+177 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_WEN(48)
+178 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_A(48)
+179 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_D(48)
+180 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_PER(48)
+181 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_MINH(48)
+182 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_MINL(48)
+183 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_CEN(48)
+184 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_WEN(48)
+185 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_A(48)
+186 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_D(48)
+187 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CENi(48)
+188 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.WENi(48)
+189 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Ai(48)
+190 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Di(48)
+191 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Qi(48)
+192 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_Qi(48)
+193 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_CLK(48)
+194 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Q(36)
+195 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CLK(36)
+196 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CEN(36)
+197 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.WEN(36)
+198 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.A(36)
+199 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.D(36)
+200 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._Q(36)
+201 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._A(36)
+202 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._CLK(36)
+203 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._CEN(36)
+204 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._WEN(36)
+205 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._D(36)
+206 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.re_flag(36)
+207 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.re_data_flag(36)
+208 *Verdi* : End of traversing.
+209 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.060 user,  144.15M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  3.61M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  3.61M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  3.61M sys,  0.00M vm
+
+          Count usage: 34 var,  34 idcode,  34 callback
+                 incr: 34 var,  34 idcode,  34 callback
+                 accu: 34 var,  34 idcode,  34 callback
+            accu incr: 34 var,  34 idcode,  34 callback
+210 VC callback profile - scalar:0 vector:0
+211 Fri Jan 15 02:14:24 2021
+212 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.090 sys,  0.060 user,  145.20M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  4.66M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 34 var,  34 idcode,  34 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 34 var,  34 idcode,  34 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+213 VC callback profile - scalar:34 vector:0
+214 Fri Jan 15 02:14:24 2021
+215 sps_call_fsdbDumpMDA at 0 : /home/raid7_2/userb06/b6505027/1091_final/testbed.v(125)
+216 *Verdi* : Begin traversing the MDAs, layer (0).
+217 *Verdi* : Enable +mda and +packedmda dumping.
+218 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.clk(48)
+219 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.reset(48)
+220 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.record(116)
+221 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.x(25)
+222 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.y(25)
+223 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.n(25)
+224 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.i(25)
+225 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.addr(25)
+226 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.hit(25)
+227 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.hit_ref(25)
+228 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.err(25)
+229 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.pass(25)
+230 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.label(48)
+231 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rf(116)
+232 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.over(48)
+233 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.fid(48)
+234 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rom_q(36)
+235 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_q(36)
+236 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.rom_a(36)
+237 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_a(36)
+238 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_d(36)
+239 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.sram_wen(36)
+240 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.finish(36)
+241 Cell instance `test.u_rom'.
+242 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.NOT_A(48)
+243 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CEN(48)
+244 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_A(48)
+245 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_PER(48)
+246 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_MINH(48)
+247 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_NOT_CLK_MINL(48)
+248 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LATCHED_CEN(48)
+249 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LATCHED_A(48)
+250 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CENi(48)
+251 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Ai(48)
+252 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Qi(48)
+253 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.LAST_CLK(48)
+254 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.Q(36)
+255 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CLK(36)
+256 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.CEN(36)
+257 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.A(36)
+258 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._Q(36)
+259 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._A(36)
+260 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._CLK(36)
+261 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom._CEN(36)
+262 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_rom.re_flag(36)
+263 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rd_buffer(48)
+264 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.cnt(48)
+265 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.index_cnt(48)
+266 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.index_buffer(116)
+267 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.add_index_cnt(48)
+268 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rw(48)
+269 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.high_reverse(48)
+270 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.low_reverse(48)
+271 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rever_rst(48)
+272 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rd_sram(48)
+273 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.w_rd_sram(48)
+274 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.times(48)
+275 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.cs(48)
+276 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.ns(48)
+277 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a_high(48)
+278 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a_low(48)
+279 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr_high(48)
+280 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr_low(48)
+281 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr_high(48)
+282 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr_low(48)
+283 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.re_cs(48)
+284 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.re_ns(48)
+285 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.i(25)
+286 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.clk(36)
+287 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.reset(36)
+288 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_q(36)
+289 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.rom_a(36)
+290 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_q(36)
+291 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_a(36)
+292 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_d(36)
+293 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.sram_wen(36)
+294 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.finish(36)
+295 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.write_addr(36)
+296 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.read_addr(36)
+297 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.current_index(36)
+298 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.en_rd(36)
+299 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_CLE.hit_without_ref(36)
+300 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.mem(116)
+301 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.NOT_A(48)
+302 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.NOT_D(48)
+303 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CEN(48)
+304 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_WEN(48)
+305 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_A(48)
+306 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_D(48)
+307 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_PER(48)
+308 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_MINH(48)
+309 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_NOT_CLK_MINL(48)
+310 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_CEN(48)
+311 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_WEN(48)
+312 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_A(48)
+313 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LATCHED_D(48)
+314 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CENi(48)
+315 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.WENi(48)
+316 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Ai(48)
+317 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Di(48)
+318 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Qi(48)
+319 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_Qi(48)
+320 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.LAST_CLK(48)
+321 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.Q(36)
+322 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CLK(36)
+323 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.CEN(36)
+324 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.WEN(36)
+325 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.A(36)
+326 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.D(36)
+327 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._Q(36)
+328 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._A(36)
+329 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._CLK(36)
+330 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._CEN(36)
+331 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._WEN(36)
+332 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram._D(36)
+333 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.re_flag(36)
+334 *Verdi* WARNING: [NoReadAccess][FilterOut]Name:test.u_sram.re_data_flag(36)
+335 *Verdi* : End of traversing the MDAs.
+336 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.070 user,  145.20M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+
+          Count usage: 1186 var,  1186 idcode,  1187 callback
+                 incr: 1152 var,  1152 idcode,  1153 callback
+                 accu: 1152 var,  1152 idcode,  1153 callback
+            accu incr: 1152 var,  1152 idcode,  1153 callback
+337 VC callback profile - scalar:34 vector:0
+338 Fri Jan 15 02:14:24 2021
+339 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.090 sys,  0.070 user,  145.20M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  0.00M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 1186 var,  1186 idcode,  1187 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 1152 var,  1152 idcode,  1153 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+340 VC callback profile - scalar:34 vector:1152
+341 Fri Jan 15 02:14:24 2021
+342 End of simulation at 73630000
+343 VC callback profile - scalar:73933 vector:1152
+344 Fri Jan 15 02:14:34 2021
+345 Begin FSDB profile info:
+346 FSDB Writer : bc1(73933) bcn(1152) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.009551) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+347 End FSDB profile info
+348 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+349                        ProduceTime:2.668009347 ConsumerTime:0.000000000 Buffer:64MB
+350 SimExit
+351 Sim process exit
